@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [],
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "include": ["types/**/*.d.ts", "**/*.ts", "**/*.vue"]
+}
